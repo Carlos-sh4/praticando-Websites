@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="stylestyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="media-query.css">k
+</head>
+<body onresize="changeSize()">
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        </menu>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+    </header>
+    <main>
+        <article>
+            <h2>Testes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident exercitationem incidunt, suscipit sint dolor ullam iusto voluptas! Sapiente quisquam nihil fugit totam vel iusto, libero suscipit dolores, repellendus dolorem mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus amet officiis modi facere nemo. Excepturi et, corrupti exercitationem quo at maxime culpa voluptas nobis alias consequuntur, impedit, odit sed illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis similique quia accusamus commodi. Unde delectus nulla, id ea obcaecati officiis reiciendis consequuntur inventore doloremque tempora optio explicabo soluta dolorem veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores praesentium officia voluptas fugit animi, modi earum, iure ullam, recusandae delectus tenetur aliquam similique impedit dolorem nulla? Magni, ipsam blanditiis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam non officiis amet voluptates modi facere aliq Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ut blanditiis, vitae, sequi consectetur doloribus labore provident eius velit autem placeat consequuntur veniam? Impedit cumque porro nemo modi, tenetur vitae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam illum sequi eos repudiandae consequatur unde, sit possimus dolor totam magni quia! Odio numquam asperiores rerum error hic nostrum nihil corporis. lorem
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam. Vitae, reprehenderit magni! Delectus reiciendis assumenda rem quisquam distinctio, doloribus blanditiis, quia ipsa laborum, perspiciatis pariatur nesciunt. Quae, nulla beatae.uam sed molestias eveniet consequuntur? Molestias expedita, doloribus tenetur repellendus neque ipsam sint suscipit provident.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus laudantium deleniti iure voluptas beatae incidunt a molestias debitis reprehenderit. Magni nisi, excepturi fuga officiis cum pariatur distinctio laudantium fugiat! Fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non minus nihil aspernatur placeat fugiat, porro neque quod at animi rem quibusdam voluptatibus rerum quo nulla natus eligendi ducimus sapiente alias Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, vero velit? Aliquam, corporis dicta! Consequatur nostrum fugit perspiciatis dolorem dicta, odio cumque, repellat ipsam, atque eos mollitia libero ipsum non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veniam rem, incidunt soluta perspiciatis laborum earum eaque hic temporibus quis ratione, impedit ipsa vel. Repellendus eos impedit laborum ipsam error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatem quos id dicta voluptatum laudantium doloremque at, tempora recusandae qui repudiandae eius praesentium sapiente nesciunt iste deleniti molestias vero debitis..</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu(){
+            if(items.style.display == 'block'){
+                items.style.display = 'none'
+            } else{
+                items.style.display = 'block';
+            }
+        }
+
+        function changeSize(){
+            if (window.innerWidth >= 768){
+                items.style.display = 'block'
+            } else {
+                items.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
